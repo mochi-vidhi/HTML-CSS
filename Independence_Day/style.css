@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+
+ }
+ .name{
+    font-size: larger;
+    font-style: italic;
+    color:rgb(20, 20, 73);
+
+ }
+ 
+ .army{
+    width: 300px;
+    mix-blend-mode:multiply;
+    float: right;
+   
+ }
+ body{
+    background-color: lightblue;
+ }
+ .orange{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(252, 102, 3);
+ }
+ .white{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255,255,255);
+    img{
+       width:75px;
+       height:80px;
+       position: relative;
+       left:37%;
+       top:10%;
+   }
+ }
+ .green{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(15, 252, 3);
+ }
+ .stick{
+    width: 10px;
+    height: 200px;
+    background-color: brown;
+ }
+ .steps{
+    position: relative;
+    left:25%;
+    top: 70px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(115, 108, 111);
+
+ }
+ .main{
+    position: relative;
+    left:30%;
+    top: 70px;
+ }
+ h2{
+    text-align: right;
+ }
+ 
