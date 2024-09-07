@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#FABC3F, #E85C0D,#C7253E,#821131);
+    height: 100vh;
+    width:100%;
+}
+#murti{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+#toran{
+    height: 500px;
+    width: 700px;
+    padding-top: 0%;
+    position: absolute;
+}
+#oneside{
+    float: right;
+    width:400px;
+    height: 100vh;   
+}
+.text{
+    position: absolute;
+    top: 55%;
+    left:45%;
+}
+h2{
+    font-size: 60px;
+    margin-left: 32%;
+    color: #161D6F;
+    transition-duration: 5ms;
+
+}
+h2:hover {
+   color:#6EACDA;
+  }
+h1{
+    font-size: 70px;
+    margin-left: 30px;
+    margin: 20px;
+    font-family:cursive;
+    border: 5px dotted wheat;
+    color:gold;
+    border-radius: 10px;
+    transition-duration: 5ms;
+}
+h1:hover{
+    color:#36C2CE;
+}
+img:hover {
+    background-image: url(C:/Users/mochi/Downloads/Flowers.gif);
+    width: 300px;
+    height: 400px;
+}
