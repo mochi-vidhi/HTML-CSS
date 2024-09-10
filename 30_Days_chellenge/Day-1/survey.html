@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Using HTML & CSS By Vidhi Chauhan</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1>Vidhi Chauhan Survey Form</h1>
+    <form>
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your name">
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+        </div>
+        <div class="form-control">
+            <label for="age">Age</label>
+            <input type="text" id="age" placeholder="Enter Your age">
+        </div>
+        <div class="form-control">
+            <label for="role">
+                Which option best describes you?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>
+                Would you recommend survey form
+                to a friend?
+            </label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">
+                Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">
+                No
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">
+                Maybe
+            </label>
+        </div>
+        <div class="form-control">
+            <label>Languages and Frameworks known
+                 <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1" >
+                <input type="checkbox" name="inp">C
+            </label>
+
+            <label for="inp-2" ></label>
+                <input type="checkbox" name="inp">C++
+            </label>
+            <label for="inp-3" ></label>
+                <input type="checkbox" name="inp">Java
+            </label>
+            <label for="inp-4" ></label>
+                <input type="checkbox" name="inp">Python
+            </label>
+            <label for="inp-5" ></label>
+                <input type="checkbox" name="inp">HTML
+            </label>
+            <label for="inp-6" ></label>
+                <input type="checkbox" name="inp">CSS
+            </label>
+            <label for="inp-7" ></label>
+                <input type="checkbox" name="inp">JavaScript
+            </label>
+            <label for="inp-8" ></label>
+                <input type="checkbox" name="inp">Bootstrap
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment" 
+            placeholder="Enter Your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
