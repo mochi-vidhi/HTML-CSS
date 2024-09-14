@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking form using html & css</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <div class="container">
+        <div id="pic1">
+           <img src="https://cdn.prod.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp">
+        </div>
+        <div id="pic2">
+            <img src="https://www.cvent.com/sites/default/files/styles/focus_scale_and_crop_800x450/public/image/2021-10/hotel%20room%20with%20beachfront%20view.jpg?h=662a4f7c&itok=7Laa3LkQ">
+        </div>
+        <div id="pic3">
+            <img src="https://images.template.net/wp-content/uploads/2015/08/Beach-Backgrounds.png">
+        </div>
+        <div class="para">
+            <h1>Hotel Booking</h1>
+            <p>Experience something new every moment</p>
+        </div>
+        <div class="form">
+        <form>
+
+            <div class="hotel-booking">
+                <label for="name">Name</label>
+                <input type="text" id="fname" placeholder="First Name" >
+                <input type="text" id="lname" placeholder="Last Name">  
+            </div>
+
+            <div class="hotel-booking">
+                <label for="email">Email</label>  
+                <input type="email" id="email" placeholder="abc123@gmail.com">
+            </div>
+
+            <div class="hotel-booking">
+                <label for="room">Room type</label>
+                <select id="room" name="room">
+                    <option value="please select">Please Select</option>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+
+            <div class="hotel-booking">
+                <label for="guests">Number of guests</label>
+                <input type="number" placeholder="Ex.1">
+            </div>
+
+            <div class="arrival">
+                <label for="day">Arrival Date & Time </label>
+                <input type="date">
+                <input type="time">
+                <select name="am" id="time">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+            <div class="hotel-booking">
+                <label for="depature">Departure Date</label>
+                <input type="date">
+            </div>
+
+            <div class="choice">
+                <label for="pickup">Free Pickup?</label>
+                <label for="yes">
+                    <input type="radio" id="yes"name="pickup">
+                    Yes Please! - Pick me up on arrival
+                </label>
+                <label for="no">
+                <input type="radio" id="no"name="pickup">
+                No Thanks - I'll make my own way there
+                </label>
+            </div>
+
+            <div class="hotel-booking">
+                <label for="number">Flight Number</label>
+                <textarea id="number" placeholder="Flight number "></textarea>
+            </div>
+            <div class="hotel-booking">
+                <label for="request">Special Requests</label>
+                <textarea id="request"></textarea>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+
+       </div>
+    </div>
+</body>
+</html>

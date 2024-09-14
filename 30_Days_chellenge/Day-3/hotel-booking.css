@@ -1,0 +1,104 @@
+body{
+    background-color: #4379F2;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container{
+    background-image: url(https://ukbeautyroom.com/wp-content/uploads/2022/06/beach-background-Wallpaper-2-1.jpg.webp);
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    margin: 50px auto;
+
+}
+#pic1,#pic2,#pic3{
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+#pic1{
+    margin-left: 50px;
+}
+#pic3{
+    margin-right: 50px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+p{
+    margin-bottom: 40px;
+}
+h1{
+    margin-bottom: 5px;
+    text-shadow: 2px 2px white;
+}
+.form{
+    padding: 40px 20px;
+    background-color: white;
+}
+.hotel-booking{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.hotel-booking label{
+    display: block;
+    margin-bottom: 10px;
+}
+.hotel-booking input,
+.hotel-booking select,
+.hotel-booking textarea{
+    border: 2px solid black;
+    border-radius: 2px;
+    display:inline-block;
+    padding: 10px;
+    font-family: inherit;
+    width: 45%;
+}
+.choice{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.choice input [type="radio"]{
+    display: inline-block;
+    width: auto;
+}
+
+.arrival{
+    text-align: left;
+}
+.arrival label{
+    display: block;
+    margin-bottom: 10px;
+}
+.arrival select,
+.arrival input{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+button{
+    background-color: #0B2F9F;
+    display: block;
+    font-family: inherit;
+    width: 50%;
+    font-size: 21px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px auto;
+
+}
+button:hover{
+    background-color: green;
+}
