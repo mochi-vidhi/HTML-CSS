@@ -1,0 +1,31 @@
+@font-face {
+    font-family:"vidhiFont";
+    src: url(./FortunerHeavyPersonalUse.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image:linear-gradient(#001F3F,#3A6D8C,#FF6600);
+    background-size: cover;
+}
+h1{
+    font-family:"vidhiFont";
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: aliceblue;
+    padding-top: 200px;
+    position: relative;    
+}
+@font-face {
+    font-family:"vidhiFont2" ;
+    src: url(./Baliana.otf);
+}
+p{
+    font-family:"vidhiFont2";
+    text-align: center;
+    font-size: 50px;
+}
