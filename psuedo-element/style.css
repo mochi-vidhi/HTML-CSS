@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans Gujarati, sans-serif";
+    background-color: brown;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top:350px;
+    color:#F3C623;
+}
+h1::after{
+    content:"";
+    background-image: url(./Tiger-removebg-preview.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    position: absolute;
+    left:670px;
+    top:120px;    
+}
+h1::before{
+    content: "";
+    background-image: url(./rangoli-removebg-preview.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    position: absolute;
+    bottom: 40px;
+    margin-bottom: 20px;
+    
+}
+.lion{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    border: 5px dotted #F3C623;
+}
+
+.img1,.img2,.img3,.img4{
+    position: absolute;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.img1{
+    top:0;
+}
+.img2{
+    top:0;
+    right: 0;
+}
+.img3{
+    bottom:0;
+   
+}
+.img4{
+    bottom: 0;
+    right: 0;
+}
+p{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+
