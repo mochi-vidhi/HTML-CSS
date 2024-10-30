@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://cdn.vectorstock.com/i/500p/11/61/night-sky-banner-celebrate-fireworks-new-year-vector-45041161.jpghttps://static.vecteezy.com/system/resources/thumbnails/038/466/539/small_2x/vibrant-red-fireworks-illuminating-the-night-sky-in-a-celebratory-burst-of-golden-explosions-perfect-for-chinese-new-year-vector.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+h1{
+    position: relative;
+    font-size: 55px;
+    text-align: center;
+    color:#FFC700;
+    text-shadow:2px 2px 3px #00224D;
+}
+h1::before{
+    content: "Happy";
+    font-size: 30px;
+    color: #06D001;
+    position: absolute;
+    top:-30px;
+    font-family: "Dancing Script", cursive;
+
+}
+.img-toran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+#toran{
+    height: 700px;
+    width: 70%;
+}
+
+#Kalima{
+    height: 200px;
+    width: 200px;
+}
+.imges{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    top:100px;
+    left:780px;
+}
+h2{
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #060047;
+    font-size: 30px;
+}
