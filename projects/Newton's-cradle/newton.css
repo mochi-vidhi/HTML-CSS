@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bgcolor:#010712;
+    --divColor:#865dff;
+}
+body{
+    height: 100vh;
+    display:grid;
+    place-items: center;
+    background-color: var(--bgcolor);
+
+}
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-shadow: 2px 2px var(--divColor);
+}
+.cradle{
+    width: 35rem;
+    height: 35rem;
+    border-top: 2rem solid var(--divColor);
+    border-radius: 0.5rem; 
+    display: flex;
+    justify-content: center;
+    gap: 4.55rem; 
+}
+.cradle div{
+    width: 0.5rem;
+    height: 20rem;
+    background-color: var(--divColor);
+    position: relative;
+}
+.cradle div::before{
+    content: "";
+    position: absolute;
+    left:-2.25rem;
+    top:90%;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--divColor);
+}
+.cradle div:first-child{
+    animation: left-swing 2s linear infinite;
+    transform-origin: top left;
+}
+@keyframes left-swing{
+    0%{
+        rotate:0deg;
+    }
+    25%{
+        rotate:30deg;
+    }
+    50%{
+        rotate:0deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+    
+}
+.cradle div:last-child{
+    animation: right-swing 2s linear 1s infinite;
+    transform-origin: top left;
+}
+@keyframes right-swing{
+    0%{
+        rotate:0deg;
+    }
+    25%{
+        rotate:-30deg;
+    }
+    50%{
+        rotate:0deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+    
+}
+
