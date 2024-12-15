@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Great+Vibes&family=Lavishly+Yours&family=Lobster&family=VT323&display=swap" rel="stylesheet">
+    <title> Text animation </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: #1B1833;
+            display: grid;
+            place-items: center;
+        }
+        h1{
+            font-size: 6rem;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: -3px 10px 10px rgba(249,141,141,0.2);
+            position: absolute;
+            font-family: "Bungee Spice", sans-serif;
+            animation: move 2s ease-in-out ,rotate 3s linear infinite;
+        }
+        @keyframes move{
+            0%{
+                
+                top:40%;
+                left:0%;
+            }
+            100%{
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%); 
+            }      
+        }
+        @keyframes rotate {
+            0%{
+                   
+                   transform: rotate(20deg);
+            }
+            50%{
+                   transform: rotate(0deg); 
+            }
+            100%{
+                   
+                   transform: rotate(-20deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>vidhu <br> chauhan</h1>
+</body>
+</html>
