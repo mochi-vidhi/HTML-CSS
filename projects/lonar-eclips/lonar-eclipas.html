@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Eclips Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: #F2E5BF;
+            display: grid;
+            place-items: center;
+        }
+        .square{
+            width: 500px;
+            height: 500px;
+            background-color:#FFAD60;
+            display: grid;
+            place-items: center; 
+            border-radius: 3px;   
+            animation: colorChange 10s ease-in-out;       
+        }
+        @keyframes colorChange{
+            0%{
+                background-color: #FFAD60;
+            }
+            25%{
+                background-color: #FD8B51;
+            }
+            50%{
+                background-color: #000000;
+            }
+            75%{
+                background-color: #FD8B51;
+            }
+            100%{
+                background-color: #FFAD60;
+            }
+            
+        }
+        .circle{
+            width: 200px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #FF6500;
+            position: relative;
+            overflow: hidden;
+        }
+        .circle::after{
+            content: "";
+            position: absolute;
+            top:0;
+            left:0;
+            width: inherit;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #000000;
+            
+            animation: movesun 10s ease-in-out;
+        }
+        @keyframes movesun {
+            0%{
+                translate:100%;
+                scale: 1;
+            }
+            50%{
+                translate:0%;
+                scale: 0.9;
+            }
+            100%{
+                translate:-100%;
+                scale: 1;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="square">
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
