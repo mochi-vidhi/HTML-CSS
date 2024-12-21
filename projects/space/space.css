@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    
+}
+
+.planet-container{
+    width: 85%;
+    position: absolute;
+    perspective: 1000px;
+    top:8%;
+    left:9%;  
+}
+.planet-section{
+    background: url("https://www.krqe.com/wp-content/uploads/sites/12/2022/12/AdobeStock_81556974.jpeg?w=2560&h=1440&crop=1") center center/100%;
+    height: 550px;
+    border-radius: 10px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    animation: rotate 8s infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: translateY(0px) translateZ(0px) rotateY(-80deg);
+    }
+    100%{
+        transform: translateY(10px) translateZ(10px) rotateY(80deg) scale(0.655);
+    }
+}
+.planet-section img{
+    width: 10%;
+}
+.planet-section img:nth-child(1){
+    width: 14%;
+    transform: translate3d(45px,400px,85px);
+    border-radius: 50%;
+    box-shadow: rgb(6, 24, 66) 4px -2px 6px;
+}
+.planet-section img:nth-child(2){
+    width: 14%;
+    transform: translate3d(100px,250px,45px);
+    border-radius: 50%;
+    box-shadow: rgb(39, 42, 45) 4px -2px 6px;
+}
+.planet-section img:nth-child(3){
+    width: 13%;
+    transform: translate3d(250px,180px,80px);
+    border-radius: 50%;
+    box-shadow: rgb(136, 97, 89) 4px -2px 6px;
+}
+.planet-section img:nth-child(4){
+    width: 13%;
+    transform: translate3d(45px,410px,85px);
+    border-radius: 50%;
+    box-shadow: rgb(150, 83, 44) 4px -2px 6px;
+}
+.planet-section img:nth-child(5){
+    width: 5%;
+    transform: translate3d(-280px,110px,60px) rotate(65deg);
+    border-radius: 50%;
+    box-shadow: -5px 10px 20px #101010;
+}
+.planet-section img:nth-child(6){
+    width: 10%;
+    transform: translate3d(-20px,100px,50px) rotate(5deg);
+    
+}
